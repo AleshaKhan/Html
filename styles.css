@@ -1,91 +1,45 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    line-height: 1.6;
 }
 
-header {
-    background: #9d0782;
-    color: #aff98a;
-    padding: 1rem 0;
+.weather-container {
     text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+h1 {
+    margin-bottom: 20px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
+.search {
+    margin-bottom: 20px;
 }
 
-nav ul li a, nav ul li button {
-    color: #fff;
-    text-decoration: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-section {
-    padding: 2rem;
-}
-
-.profile-photo {
-    width: 150px;
-    border-radius: 50%;
-}
-
-.project {
-    margin-bottom: 1rem;
-}
-
-form {
+.weather-info {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-form label {
-    margin-top: 1rem;
+.weather-info img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
 }
 
-form input, form textarea, form button {
-    padding: 0.5rem;
-    margin-top: 0.5rem;
+.weather-info p {
+    margin: 5px;
 }
 
-footer {
-    background: #551473;
-    color: #cc3b75;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 1rem 0;
-    }
-}
-body.dark-mode {
-    background: hsl(0, 0%, 19%);
-    color: #777377;
-}
-
-body.dark-mode header {
-    background: #997dad;
-}
-
-body.dark-mode footer {
-    background: #c392ec;
-}
-
-body.dark-mode nav ul li a, body.dark-mode nav ul li button {
-    color: #0e0d0e;
+.error {
+    color: red;
 }
