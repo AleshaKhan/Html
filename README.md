@@ -1,23 +1,22 @@
-# Weather Dashboard
+# E-commerce Product Page
 
-## Description
-A simple weather dashboard that displays current weather information fetched from the OpenWeatherMap API.
+## Overview
+This is a simple e-commerce product page with dynamic image and price updates based on user selections.
 
-## Setup Instructions
+## Features
+- Dynamic product image gallery
+- Responsive layout using Flexbox
+- Price update based on selected size and color
+- Add to cart functionality with a popup cart summary
 
-1. **Clone the repository:**
+## Instructions
+1. Open `index.html` in a web browser.
+2. Click on the thumbnail images to update the main product image.
+3. Select different sizes and colors to see the price update.
+4. Click "Add to Cart" to see the cart summary popup.
 
-2. **Navigate to the project directory:**
-
-3. **Open `index.html` in your browser.**
-
-4. **Replace `YOUR_API_KEY` in `app.js` with your OpenWeatherMap API key.**
-
-## Usage
-- Enter a city name in the search box.
-- Click the "Search" button to fetch and display the weather information for the specified city.
-
-## Dependencies
-- This project uses the Fetch API for making HTTP requests.
-- No additional libraries or frameworks are required.
-
+## Files
+- `index.html`: The main HTML file.
+- `styles.css`: CSS file for styling the page.
+- `script.js`: JavaScript file for dynamic interactions.
+- `images/`: Folder containing product images.
